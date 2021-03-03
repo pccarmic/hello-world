@@ -4,6 +4,7 @@
 public class GitDemo {
     
     private double previousNumber;
+    private double reverseNum;
     
     public GitDemo() {
         previousNumber = 1;
@@ -26,7 +27,7 @@ public class GitDemo {
         double factorialNumber = 0;
         
         for(int i = 1; i <= num; ++i){
-            newNumber = newNumber * i;
+            factorialNumber = factorialNumber * i;
         }
         
         return factorialNumber;
@@ -39,7 +40,6 @@ public class GitDemo {
      *****/
     public double reverseNumber(int num){
         double newNumber = 1;
-        private double reverseNum;
         
         while( num != 0 ) {
             double temp = num % 10;
